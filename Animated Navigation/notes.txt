@@ -1,0 +1,24 @@
+Animated Navigation
+1. Justify-content is what centers the body of everything
+2 box shadow order (0 x offset) 2px(y offset) 5px(blur) then color rgba(0,0,0,0.3(transparency, makes it looks like its slightly coming off the page))
+3. to have a smooth transition, this case the width, the duration you want it to last and the effect
+4. Display: flex; makes all items flex that will trn into a row 
+5 nav ul li is 
+
+6.nav ul li {
+    transform: rotateY(0deg); (*this is what spins the menu button)
+    opacity: 0; (*isn't showing whenever the ul isn't active)
+    transition: transform 0.6s linear, opacity 0.6s linear;
+}       
+
+7. When targeting the li (the Home, Works, About, and Contact buttons) when the nav is active nav.active ul li {
+    opacity: 1;
+    transform: rotateY(360deg);
+}
+
+8. nav ul a (href in the html) (* this is targeting the menu buttons and separating them)
+
+9. .icon (*targets the box menu click icon, makes it disapear until you hover over it with the cursor pointer)
+10. box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); fucking semi colon missing at the end fucked up the animation jeeez
+
+

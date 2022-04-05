@@ -1,0 +1,32 @@
+#toasts produces <div id="toasts">
+
+.toast produces <div class="toast">Hello Dude</div>
+
+button.btn#button produces <button class="btn" id="button">Show Notification</button>
+
+#toasts in CSS means id="toasts" in HTML
+
+the div class is "toast" so that corresponds to .toast in CSS 
+
+margin: 0.5rem; //space in-between the toast boxes 
+
+const messages = {
+    'Message One',
+    'Message Two',
+    'Message Three',
+    'Message Four',
+} 
+    a. these are the messages that will appear with each click 
+
+
+  setTimeout(() => {
+        notif.remove()
+    }, 3000) 
+        a. this removes the toast messages after 3 seconds and also a second argument in setTimeout()
+
+In JS Math.random produces random order of the toasts appearing and we multiply that by messages.length
+
+notif.classList.add(type ? type : getRandomType())
+
+    a. this means if there is a type then add that type as a class, else set it to random message with getRandomType()
+    b. 

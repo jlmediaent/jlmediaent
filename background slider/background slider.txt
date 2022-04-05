@@ -1,0 +1,20 @@
+Background Slider
+1. body::before { this is adding an overlay
+    content: '';
+    
+}
+2. background-color: rgba(0, 0, 0, 0.6); the last number is an overlay
+3..slider-container {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 70vh;
+    width: 70vw;
+    position: relative;
+    overflow: hidden;
+} 
+when styling specific classes you have options to consider 
+
+4. In JS activeSlide++ means to increment by 1 with each click while activeSlide-- reduces by 1
+5.  if(activeSlide  > slides.length -1 { this checks the end, slides.length (from html slide class) checks the length of the node list
+        activeSlide = 0
+    })
+6. need a ('.slide') when using querySelectoryAll, while getElementById doesn't in the ('')

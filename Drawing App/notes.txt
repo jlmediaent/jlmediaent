@@ -1,0 +1,17 @@
+canvas#canvas produces <canvas id="canvas"></canvas>
+
+button#decrease produces <button id="decrease"></button>
+
+button#clear produces button id vs button.clear products button class
+
+<div class="toolbox">
+          <button id="decrease"></button>
+          <span id="size">20</span>
+          <button id="increase">+</button>
+          <input type="color" id="color">
+          <button id="clear"></button>
+      </div>
+
+      a. all of the buttons and spans are direct children of toolbox div class
+
+      // https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API

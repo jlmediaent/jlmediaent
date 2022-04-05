@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Sound Board",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Sound Board"
+	}
+}

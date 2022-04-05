@@ -1,0 +1,19 @@
+ transform: translate(-50%, -50%)
+
+    a. without transform: translateX or Y we can do it in the parenthesis 
+
+<button id="replay">replay</button>
+
+    a. the >replay< is what is displayed on the button 
+
+had numbs instead of numbs in the CSS and it fked things up 
+
+In JS querySelectorAll is used if there is multiple elements you are selecting. 
+    a.   const nums = document.querySelectorAll('.nums span')
+
+function runAnimation() {
+      nums.forEach((num) => {
+
+            a. the nums for each function takes in (num, and second parameter of idx or index) which means it takes in 1 then 2 and so on 
+
+had issue with 0% on the keyframes, was missing the % and it caused the animation to not run smoothly 

@@ -1,0 +1,14 @@
+in CSS transform: translate(-50, -50%) is about positioning the circle ripple effect on the x and y axis. 
+button.addEventListener('click', (e) => { //the (e) is the event object, so we want a couple different values, where we click in the viewport, so const x and const y. 
+    a. he turns them into e.clientX and e.clientY
+    b. when you check the console log initially and click it gives x and y coordinates of the whole page, for instance 160px from the left and 199px from the right. 
+we need the position fo the button itself, 
+    a. buttonTop is the surface of the whole button only
+    b. buttonLeft is starting from the left side of the screen, i am unclear if this is because its a left to right thing.
+
+Next we need to get only different coordinates inside the button so that the ripple starts only where you click in the button.
+
+button class in html need to be lowercase <button class="ripple">Click Me</button> as i had Ripple with a capital R and the function in the js in with the button didn't work.
+
+this.appendChild(circle) won't work with an arrow function. 
+    a.button.addEventListener('click', function (e) { so actually write function

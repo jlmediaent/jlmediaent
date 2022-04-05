@@ -1,0 +1,20 @@
+.carousel {
+
+        a. was missing the . in front of .carousel and so the carousel didn't appear.
+
+
+in the JS
+    a. imgs.style.transform = `translateX(${-idx * 500p}px)`
+
+    this is essentially doing the same thing as 
+
+    transform: translateX(0); with -500px how it rotates the image
+
+        a. transition: transform 0.5s ease-in-out;
+
+         this allows for a smooth transition 
+
+rightBtn.addEventListener('click', () => {
+    idx--
+
+    a. since we are going to the right we are going to decrement with ++

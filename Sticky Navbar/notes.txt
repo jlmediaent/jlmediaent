@@ -1,0 +1,26 @@
+nav.nav produces <nav class="nav"></nav>
+
+h1.logo produces <h1 class="logo"></h1>
+
+ background-color: rgba(0, 0, 0, 0.6);
+    a. red, green, blue, alpha, where the alpha is the transparency or in this case the overlay to dim the background a bit. 
+
+hero::before is psudo selector, it ads a ghost element to style, when you add before you have to ad content:'';
+    a. position absolute in the hero
+    b. start at the top and left 
+    
+z-index is how close to the screen the element is 
+    a. the z-index divide the text visibility from the background, and really make the text pop 
+
+.nav a this mans class of nav with the a tags a href=
+
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) 
+    a. offsets 0 and 2px, 10px blur and rgba
+
+.nav a.current, .nav a:hover{ this reads if the nav a class is active or if it is being hovered over.
+    a. this changes the color of the font menu words to red 
+
+const nav = document.querySelector('.nav') is this we are bringing in the class of .nav 
+
+window.addEventListener('scroll', fixNav) this means when we scroll we are going to all a function called fixNav we then make the function below 
+

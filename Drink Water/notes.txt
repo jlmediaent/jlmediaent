@@ -1,0 +1,22 @@
+1. in html .remained becomes <div class="remained"></div>
+2. in html span#liters becomes <span id="liters"></span>
+3. in html small becomes <small></small>
+4. in html .percentage becomes <div class="percentage"></div>
+5. in html p.text becomes <p class="text"></p>
+6. in html .cups becomes <div class="cups">
+7. in css align-items: center;
+    justify-content: center; seem to always go with eachother
+8. border radius shapes the ouline how round of an angle you want
+9. .cup.cup-small.full {
+    background-color: var(--fill-color);
+    color: #fff;
+} a missing semi colon at the end of the var fill color caused the color: #fff not to work
+
+10. const smallCups = document.querySelectorAll('.cup-small') use this becuase we are drawing/targeting 8 small cups
+this will put them into a node list 
+11.const liters
+12. in JS this && ! means if not
+13. delete an entire word in one click with ctrl+backspace
+14. in JS idx-- this means take the current index and decrement by 1
+15. ctrl + / notes out code
+16. percentage.style.visibility = 'visible' spelled visable and the code didn't work wow

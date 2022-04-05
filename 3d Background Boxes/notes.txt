@@ -1,0 +1,21 @@
+button#btn.magic 
+
+    a. makes <button id="btn" class="magic"></button>
+
+#boxes.boxes
+
+    a. for styling the . adds a class of boxes for the css
+
+transform: translateY(-2px) moves up and (2px) moves down
+
+    a. when you click and hold it moves the button down a tad 
+
+background-size: 500px 500px;
+
+    a. applys to x and y 
+
+seems that you want to position containers relative so you can position the contents absolute.
+
+Camel case is when you have two words like camelCase instead of camel-case
+
+use template literals for expressions ``

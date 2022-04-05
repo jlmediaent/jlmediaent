@@ -1,0 +1,28 @@
+label produces <label for=""></label> in HTML
+
+input:number produces <input type="number" name="" id="">
+
+let idx = 1 
+    a. this is an index variable 
+
+let speed = 300 / speedEl.value
+
+    a. this makes it faster as we increase the speed 
+
+textEl.innerText = text.slice()
+
+        a. .slice will give us a range of the string 
+
+if(idx > text.length) 
+
+    a. this checks if the index is greater than the entire length of what we have in the text, if true then it will reset the index to 1 and start over
+
+setTimeout(writeText, speed) 
+
+    a. we need to keep calling the write text, and it will wait a specific amount of time, in this case we want to wait whatever the speed is. 
+
+speedEl.addEventListener('input', (e) => speed = 300 / e.target.value)
+
+    a. this gives the speed input number functionality, so it listens for an input either from the arrows or from simply typing a number in the speed box. 
+
+    b. the max class we set in HTML is the max it can go to 

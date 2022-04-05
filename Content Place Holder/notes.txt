@@ -1,0 +1,16 @@
+in HTML lorem5+enter gives you 5 words >Lorem ipsum dolor sit amet.</h3>
+
+h3.card-title.animated-bg.animated-bg-text produces  <h3 class="card-title animated-bg animated-bg-text" id="title">Lorem ipsum dolor sit amet.</h3>
+      </div>
+
+ p.card-excerpt#excerpt produces <p class="card-excerpt" id="excerpt"></p>
+
+ <span class="animated-bg animated-bg-text">&nbsp;</span>
+    a. the &nbsp means  non breaking space 
+
+in CSS .profile-img is the border around the image
+    a. border radius 50% combined with overflow: hidden rounds out the john doe image 
+    b. setting the height and width changes the size of the image. 
+    c. margin-left moves the author info text away from the image 
+
+.author info-small changes the date info
